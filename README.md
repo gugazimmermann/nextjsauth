@@ -36,3 +36,5 @@ In Auth0 page put inside **Allowed Callback URLs**:
 Change **EXAMPE.COM** with your domain
 
 Inside `./next.config.js` change **EXAMPE.COM** with your domain
+
+Access `http://localhost:3000/secret` to see Auth0 running
