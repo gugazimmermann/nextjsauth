@@ -31,13 +31,13 @@ const BlogIndexPage: NextPage<{
             </NextLink>
           );
         })}
-              <NextLink href="/" passHref>
-        <Link>
-          <Heading as="h3" size="md" marginTop={6}>
-            Return to Home
-          </Heading>
-        </Link>
-      </NextLink>
+        <NextLink href="/" passHref>
+          <Link>
+            <Heading as="h3" size="md" marginTop={6}>
+              Return to Home
+            </Heading>
+          </Link>
+        </NextLink>
       </Flex>
     </Box>
   );

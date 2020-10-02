@@ -38,7 +38,7 @@ const EmployeePage: NextPage<{ data: UserData }> = (props) => {
         <NextLink href="/about/employees">
           <Link marginY="2rem">
             <Heading as="h3" size="md" marginTop={6}>
-            Return to List of Employees
+              Return to List of Employees
             </Heading>
           </Link>
         </NextLink>

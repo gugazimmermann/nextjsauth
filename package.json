@@ -6,6 +6,8 @@
   "author": "Guga Zimmermann",
   "scripts": {
     "dev": "next",
+    "lint": "yarn eslint --fix --ext .js,.jsx .",
+    "prettier": "yarn prettier --write .",
     "build": "next build",
     "start": "next start",
     "export": "next build && next export"
@@ -28,6 +30,13 @@
     "@types/node-fetch": "^2.5.7",
     "@types/react": "^16.9.50",
     "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "prettier": "^2.1.2",
     "typescript": "^4.0.3"
   }
 }

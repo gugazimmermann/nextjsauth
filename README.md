@@ -1,16 +1,17 @@
 ## Auth
 
-Running URL: https://nextjsauth-dusky.vercel.app/ or  https://nextjsauth-dusky.vercel.app/secret
+Running URL: https://nextjsauth-dusky.vercel.app/ or https://nextjsauth-dusky.vercel.app/secret
 
 created using:
-* Typescript
-* Next.js
-* SWR
-* React
-* Chakra UI
-* Emotion
-* Auth0
-* Vercel
+
+- Typescript
+- Next.js
+- SWR
+- React
+- Chakra UI
+- Emotion
+- Auth0
+- Vercel
 
 ---
 
@@ -29,7 +30,7 @@ To generate the Cookie Secret you can run `openssl rand -base64 32`
 
 # AUTH0
 
-In Auth0 page put inside **Allowed Logout URLs**: 
+In Auth0 page put inside **Allowed Logout URLs**:
 `http://localhost:3000/api/callback,https://EXAMPE.COM/api/callback`
 
 In Auth0 page put inside **Allowed Callback URLs**:
