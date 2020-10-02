@@ -1,5 +1,7 @@
 ## Auth
 
+Running URL: https://nextjsauth-dusky.vercel.app/ or  https://nextjsauth-dusky.vercel.app/secret
+
 created using:
 * Typescript
 * Next.js

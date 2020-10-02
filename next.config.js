@@ -8,14 +8,14 @@ module.exports = (phase) => {
     env: {
       REDIRECT_URI: isDev
         ? "http://localhost:3000/api/callback"
-        : "https://EXAMPE.COM/api/callback",
+        : "https://nextjsauth-dusky.vercel.app/api/callback",
       POST_LOGOUT_REDIRECT_URI: isDev
         ? "http://localhost:3000/secret"
-        : "https://EXAMPE.COM/secret",
+        : "https://nextjsauth-dusky.vercel.app/secret",
       AUTH0_SCOPE: "openid profile",
       SERVER_URL: isDev
         ? "http://localhost:3000"
-        : "https://EXAMPE.COM",
+        : "https://nextjsauth-dusky.vercel.app",
     },
   };
 };
