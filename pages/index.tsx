@@ -1,5 +1,5 @@
 import React from "react";
-import { GetStaticProps, NextPage } from "next";
+import { GetServerSideProps, NextPage } from "next";
 import NextLink from "next/link";
 import { Heading, Flex, Link, Divider, List, ListItem } from "@chakra-ui/core";
 import { ListsProps, ListsData } from "../interfaces";
@@ -49,7 +49,7 @@ const IndexPage: NextPage<{ lists: ListsData[] }> = ({ lists }: ListsProps) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const res = await fetch(
     `https://api.nytimes.com/svc/books/v3/lists/names.json?api-key=${process.env.NY_TIMES_KEY}`
   );
