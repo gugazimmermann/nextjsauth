@@ -2,11 +2,11 @@
 
 Running URL: https://nextjsauth-dusky.vercel.app/ or https://nextjsauth-dusky.vercel.app/secret
 
-created using:
+Get by API the list of NY Times Best Sellers
 
+created using:
 - Typescript
 - Next.js
-- SWR
 - React
 - Chakra UI
 - Emotion
